@@ -13,7 +13,7 @@ Desafio Alura - Encriptador
 
 <img width="277" alt="Captura de pantalla 2022-09-29 042529" src="https://user-images.githubusercontent.com/114376514/192994692-d0eb674a-f236-4de5-8a0d-b413a85017ea.png">
 
-🖥️ [DEMO] 
+🖥️ [DEMO] Pagina statica:
 
 (https://kewc.github.io/Alura-Challenge---Desafio-1-Encriptador/)
 Encriptador de texto

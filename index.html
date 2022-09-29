@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img class="logo-princial" src="/Logo/Logo.png" alt="Logo de Alura con la inicial a">
+        </div>
+    </header>
+
+    <main>
+        <div id="cuadros-de-texto"></div>
+            <section class="container">
+                <textarea class="input-text" required autofocus cols="18" rows="8" placeholder="Ingrese el texto aquí"></textarea>
+                <div>
+                    <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+        </div>
+        <div id="recuadro-de-texto">
+            <section class="container">
+                <textarea class="mensaje" disabled cols="16" rows="8"></textarea>
+            </section>
+            <section class="button-copiar">
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </section>  
+        </div>
+        
+    </main>
+    
+    <footer>
+        <div class="container">
+            <img class="logo-alura" src="Logo/logo-aluraespanhol.svg" alt="Logo da aluraespanhol">
+        </div>
+    </footer>
+    
+    <script src="srcript.js"></script>
+
+</body>
+</html>
